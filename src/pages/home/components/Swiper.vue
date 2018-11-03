@@ -24,6 +24,15 @@ export default {
         },{
             id: '0002',
             imgUrl: 'https://img1.qunarzz.com/qs/1811/3f/85a00499e2e0802.jpg'
+        },{
+            id: '0003',
+            imgUrl: 'http://img1.qunarzz.com/piao/fusion/1809/2d/0d7dc3400a50b502.jpg_750x200_4ca95dd4.jpg'
+        },{
+            id: '0004',
+            imgUrl: 'http://img1.qunarzz.com/piao/fusion/1810/6e/4a5551bbb189d902.jpg_750x200_25257467.jpg'
+        },{
+            id: '0005',
+            imgUrl: 'http://img1.qunarzz.com/piao/fusion/1809/c6/2467595fffc3b302.jpg_750x200_cca13d51.jpg'
         }]
     }
   }
