@@ -1,0 +1,146 @@
+{
+  "ret": true,
+  "data":
+  {
+  	"city": "重庆",
+    "swiperList": [
+    {
+      "id": "0001",
+      "imgUrl": "https://img1.qunarzz.com/qs/1809/64/62160a38d119c202.jpg"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "https://img1.qunarzz.com/qs/1811/3f/85a00499e2e0802.jpg"
+    },
+    {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/2d/0d7dc3400a50b502.jpg_750x200_4ca95dd4.jpg"
+    },
+    {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1810/6e/4a5551bbb189d902.jpg_750x200_25257467.jpg"
+    },
+    {
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/c6/2467595fffc3b302.jpg_750x200_cca13d51.jpg"
+    }],
+    "iconList": [
+    {
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "景点门票"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/8246f27355943202.png",
+      "desc": "游乐场"
+    },
+    {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+      "desc": "重庆必游"
+    },
+    {
+      "id": "0004",
+      "imgUrl": "https://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+      "desc": "打卡圣地"
+    },
+    {
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "desc": "一日游"
+    },
+    {
+      "id": "0006",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/89/55083b0f1951f302.png",
+      "desc": "两江夜游"
+    },
+    {
+      "id": "0007",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/96/c70f1e85ae4a4f02.png",
+      "desc": "神秘武隆"
+    },
+    {
+      "id": "0008",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+      "desc": "泡温泉"
+    },
+    {
+      "id": "0009",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1805/57/1e29afd06f881102.png",
+      "desc": "稻城亚丁"
+    },
+    {
+      "id": "0010",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png",
+      "desc": "全部玩乐"
+    }],
+    "recommendList": [
+    {
+      "id": "0001",
+      "imgUrl": "//img1.qunarzz.com/sight/p0/1810/36/36ed80c6e147d019a3.img.png_280x200_431528fe.png",
+      "title": "重庆两江夜游",
+      "comment": "12720",
+      "desc": "数十里的山城灯海一览无余，“不览夜景，枉到重庆”"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "//img1.qunarzz.com/sight/p0/1512/44/44e6f0f838b9adc190.water.jpg_280x200_2b203fbf.jpg",
+      "title": "解放碑步行街",
+      "comment": "1230",
+      "desc": "这里是重庆最繁华的商业圈，也是抗战胜利和重庆解放的历史见证"
+    },
+    {
+      "id": "0003",
+      "imgUrl": "//img1.qunarzz.com/sight/p0/1409/12/ed83b9bb54ccc7ff1f0989a7ebc2e312.jpg_280x200_18f56996.jpg",
+      "title": "洪崖洞",
+      "comment": "2290",
+      "desc": "逛山城老街、观赏两江风光、品尝当地美食的好去处"
+    },
+    {
+      "id": "0004",
+      "imgUrl": "//img1.qunarzz.com/sight/p0/1803/63/630540ceb7fb0950a3.water.jpg_280x200_682c250a.jpg",
+      "title": "重庆环球金融中心观景台(会仙楼)",
+      "comment": "1145",
+      "desc": "环玻璃幕墙、全露天设计，感受不一样的梦幻重庆"
+    },
+    {
+      "id": "0005",
+      "imgUrl": "//img1.qunarzz.com/sight/p0/1705/5c/5c00cf8542ccd71ca3.water.jpg_280x200_94fa7fee.jpg",
+      "title": "朝天门",
+      "comment": "19",
+      "desc": "朝天门是一个码头广场，可以看到两种不同颜色的江水交汇"
+    }],
+    "weekendList": [
+    {
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1509/d5/82498669f3a48d.jpg_r_640x214_21f7a4ff.jpg",
+      "title": "重庆两江夜游",
+      "desc": "数十里的山城灯海一览无余，“不览夜景，枉到重庆”"
+    },
+    {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/53/4bcd11cc3a5374.jpg_r_640x214_988a4cee.jpg",
+      "title": "重庆必游TOP10",
+      "desc": "重庆，非去不可"
+    },
+    {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/5f/276ed6784d25ee.jpg_r_640x214_2193082e.jpg",
+      "title": "重庆优质汤泉",
+      "desc": "细数重庆那些最赞的温泉"
+    },
+    {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1505/48/f117e9b3bf582a.jpg_r_640x214_b8145711.jpg",
+      "title": "重庆大美古镇",
+      "desc": "行走重庆最美古镇，让你瞬间穿越千年"
+    },
+    {
+      "id": "0005",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1506/1e/f97881dbd07520.jpg_r_640x214_f8c25916.jpg",
+      "title": "本地人带你耍",
+      "desc": "玩转小面之都，High翻天"
+    }]
+  }
+}
