@@ -41,8 +41,7 @@
 					const data = res.data
 					this.hotCities = data.hotCities
 					this.cities = data.cities
-				}				
-				console.log(this.cities)
+				}
 			}
 		},
 		mounted () {
