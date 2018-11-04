@@ -2,10 +2,15 @@
 	<ul class="list">
 		<li 
 			class="item"			
-			v-for="(item, key) of cities"
-			:key="key"
+			v-for="item of letters"
+			:key="item"
+			:ref="item"
+			@touchstart="handleTouchStart"
+			@touchmove="handleTouchMove"
+			@touchend="handleTouchEnd"
+			@click="handleLetterClick"
 		>
-			{{key}}
+			{{item}}
 		</li>
 	</ul>
 </template>
@@ -15,6 +20,50 @@
 		name: 'CityAlphabet',
 		props: {
 			cities: Object
+		},
+		data () {
+			return {
+				touchStatus: false,
+				startY: 0,
+				timer: null
+			}
+		},
+		updated () {
+			this.startY = this.$refs['A'][0].offsetTop
+		},
+		computed: {
+			letters () {
+				const letters = []
+				for (let i in this.cities){
+					letters.push(i)
+				}
+				return letters
+			}
+		},
+		methods: {
+			handleLetterClick (e) {
+				this.$emit('change', e.target.innerText)
+			},
+			handleTouchStart () {
+				this.touchStatus = true
+			},
+			handleTouchMove (e) {
+				if(this.touchStatus){
+					if(this.timer){
+						clearTimeout(this.timer)
+					}
+					this.timer = setTimeout(() => {
+						const touchY = e.touches[0].clientY - 68.8
+						const index = Math.floor((touchY - this.startY) / 22)
+						if(index >= 0 && index < this.letters.length){						
+							this.$emit('change', this.letters[index])
+						}
+					}, 16)					
+				}
+			},
+			handleTouchEnd () {
+				this.touchStatus = false
+			}
 		}
 	}
 </script>
@@ -30,7 +79,7 @@
 		top: 4.3rem
 		right: 0
 		bottom: 0
-		width: 1rem
+		width: 1.5rem
 		.item
 			line-height: 1.4rem
 			text-align: center
