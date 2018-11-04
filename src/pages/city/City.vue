@@ -47,12 +47,9 @@
 					this.hotCities = data.hotCities
 					this.cities = data.cities
 				}
-<<<<<<< HEAD
-=======
 			},
 			handleLetterChange (letter) {
 				this.letter = letter
->>>>>>> city-components
 			}
 		},
 		mounted () {
