@@ -13,8 +13,8 @@
 <style lang="stylus" scoped>
 	@import '~styles/varibles.styl'
 	.search
-		height: 2rem
-		padding: 0 .8rem
+		height: 1.8rem
+		padding: 0 .6rem
 		background: $bgColor
 		.search-input
 			box-sizing: border-box
@@ -23,6 +23,6 @@
 			padding: 0 .5rem
 			line-height: 1rem
 			text-align: center
-			border-radius: .5rem
+			border-radius: .3rem
 			color: #666
 </style>
