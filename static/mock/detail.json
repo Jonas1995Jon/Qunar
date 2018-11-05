@@ -1,9 +1,13 @@
 {
   "ret": true,
   "data": {
-    "sightName": "大连圣亚海洋世界(AAAA景区)",
-    "bannerImg": "http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_600x330_bf9c4904.jpg",
-    "gallaryImgs": ["http://img1.qunarzz.com/sight/p0/201404/23/04b92c99462687fa1ba45c1b5ba4ad77.jpg_800x800_70debc93.jpg", "http://img1.qunarzz.com/sight/p0/1709/76/7691528bc7d7ad3ca3.img.png_800x800_9ef05ee7.png"],
+    "sightName": "重庆两江夜游",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/1810/36/36ed80c6e147d019a3.img.png_600x330_e27d197e.png",
+    "gallaryImgs": [
+        "http://img1.qunarzz.com/sight/p0/1810/36/36ed80c6e147d019a3.img.png_r_800x800_70a08295.png", 
+        "http://img1.qunarzz.com/sight/p0/1607/c2/c29a5821706df7a72e.img.jpg_r_800x800_64029862.jpg", 
+        "http://img1.qunarzz.com/sight/p0/201406/06/9ec938e010c13ccd28382988102ebef6.jpg_r_800x800_c6e7f696.jpg"
+      ],
     "categoryList": [{
         "title": "成人票",
         "children": [{
