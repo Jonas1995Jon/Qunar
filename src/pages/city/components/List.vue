@@ -92,7 +92,7 @@
 		font-size: .875rem
 		overflow: hidden
 		position: absolute
-		top: 4.3rem
+		top: 4.6rem
 		left: 0
 		right: 0
 		bottom: 0

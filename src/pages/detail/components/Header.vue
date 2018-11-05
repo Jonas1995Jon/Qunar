@@ -48,7 +48,7 @@
 				}
 			}
 		},
-		activated () {
+		mounted () {
 			window.addEventListener('scroll', this.handleScroll)
 		},
 		deactivated () {
@@ -65,8 +65,9 @@
 		top: .625rem
 		width: 2rem
 		height: 2rem
-		line-height: 2rem
-		text-align: center
+		display: flex
+		justify-content: center
+		align-items: center
 		border-radius: 1rem
 		background: rgba(0, 0, 0, .8)
 		.header-abs-back

@@ -5,7 +5,7 @@
 			v-for="item of letters"
 			:key="item"
 			:ref="item"
-			@touchstart="handleTouchStart"
+			@touchstart.prevent="handleTouchStart"
 			@touchmove="handleTouchMove"
 			@touchend="handleTouchEnd"
 			@click="handleLetterClick"
@@ -71,7 +71,7 @@
 <style lang="stylus" scoped>
 	@import '~styles/varibles.styl'
 	.list
-		font-size: .875rem
+		font-size: .8rem
 		display: flex
 		flex-direction: column
 		justify-content: center
@@ -81,7 +81,7 @@
 		bottom: 0
 		width: 1.5rem
 		.item
-			line-height: 1.4rem
+			line-height: 1.2rem
 			text-align: center
 			color: $bgColor
 </style>
